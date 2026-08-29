@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddipalli Nikhil Eeswar | Developer Portfolio - Data Science & Python</title>
+    
+    <!-- SEO & Metadata -->
+    <meta name="description" content="Personal Developer Portfolio of Reddipalli Nikhil Eeswar — B.Tech in Data Science and Engineering at Lovely Professional University, Python Developer, and Aspiring AI/ML Engineer.">
+    <meta name="keywords" content="Reddipalli Nikhil Eeswar, Nikhil Reddipalli, Developer Portfolio, Data Science, Python Developer, AI ML Engineer, Lovely Professional University, Web Development, Automation">
+    <meta name="author" content="Reddipalli Nikhil Eeswar">
+    <meta name="theme-color" content="#0a0e17">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nikhilreddipalli1-200812.github.io/">
+    <meta property="og:title" content="Reddipalli Nikhil Eeswar | Developer Portfolio">
+    <meta property="og:description" content="Data Science & Engineering Student | Python Developer | Aspiring AI/ML Engineer">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Twitter Cards -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Reddipalli Nikhil Eeswar | Developer Portfolio">
+    <meta property="twitter:description" content="Data Science & Engineering Student | Python Developer | Aspiring AI/ML Engineer">
+
+    <!-- Favicon Icon (Vector SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6.5.1 CDN for Tech & UI Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glowing Light Orbs and Dynamic Canvas Background -->
+    <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
+    <div class="glow-orb glow-orb-1" aria-hidden="true"></div>
+    <div class="glow-orb glow-orb-2" aria-hidden="true"></div>
+
+    <!-- Navigation Header -->
+    <header class="site-header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo" aria-label="Nikhil Reddipalli Homepage">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-name">Nikhil</span>
+                <span class="logo-accent">.dev</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certificates</a></li>
+                    <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Nav Actions & Mobile Toggle -->
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-sm btn-outline nav-cta">Let's Talk</a>
+                <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Flow -->
+    <main id="main-content">
+
+        <!-- 1. HERO SECTION -->
+        <section id="home" class="hero-section section-padding">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill animate-fade-in">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Available for Projects &amp; Internships</span>
+                    </div>
+
+                    <h1 class="hero-title animate-slide-up">
+                        Hi, I'm <span class="gradient-text">Reddipalli Nikhil Eeswar</span>
+                    </h1>
+
+                    <div class="hero-subtitle-wrapper animate-slide-up delay-1">
+                        <span class="hero-role-prefix">&gt; </span>
+                        <span class="hero-role" id="typing-text">Data Science &amp; Engineering Student</span>
+                        <span class="cursor">|</span>
+                    </div>
+
+                    <p class="hero-description animate-slide-up delay-2">
+                        Passionate about Python programming, data science, artificial intelligence, and building practical software solutions. Pursuing B.Tech at Lovely Professional University.
+                    </p>
+
+                    <div class="hero-cta-group animate-slide-up delay-3">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore My Work</span>
+                            <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+                        </a>
+                        <a href="assets/Reddipalli_Nikhil_Eeswar_CV.pdf" 
+                           download="Reddipalli_Nikhil_Eeswar_CV.pdf" 
+                           class="btn btn-glass download-cv-btn" 
+                           id="download-cv-btn" 
+                           title="Download Reddipalli Nikhil Eeswar CV (PDF)"
+                           target="_blank">
+                            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-social-links animate-slide-up delay-4">
+                        <span class="social-label">Connect:</span>
+                        <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nikhil-reddipalli-65082835a" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:nikhilreddipalli1@gmail.com" class="social-icon-btn" aria-label="Send Email">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <a href="tel:+919963542131" class="social-icon-btn" aria-label="Call Phone">
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Interactive Tech Card / Terminal -->
+                <div class="hero-visual animate-fade-in delay-2">
+                    <div class="code-terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="terminal-title">nikhil_profile.py</span>
+                            <span class="terminal-badge">Python 3.11</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-class">DeveloperProfile</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(<span class="code-param">self</span>):
+        <span class="code-param">self</span>.name = <span class="code-string">"Reddipalli Nikhil Eeswar"</span>
+        <span class="code-param">self</span>.role = <span class="code-string">"Data Science & AI/ML"</span>
+        <span class="code-param">self</span>.university = <span class="code-string">"Lovely Professional Univ"</span>
+        <span class="code-param">self</span>.grad_year = <span class="code-number">2029</span>
+        <span class="code-param">self</span>.core_stack = [
+            <span class="code-string">"Python"</span>, <span class="code-string">"C"</span>, <span class="code-string">"SQL"</span>,
+            <span class="code-string">"AI/ML"</span>, <span class="code-string">"Automation"</span>
+        ]
+        
+    <span class="code-keyword">def</span> <span class="code-func">get_status</span>(<span class="code-param">self</span>):
+        <span class="code-keyword">return</span> <span class="code-string">"Ready to build & innovate!"</span>
+
+<span class="code-comment"># Developer Object</span>
+nikhil = <span class="code-class">DeveloperProfile</span>()
+<span class="code-func">print</span>(nikhil.<span class="code-func">get_status</span>())</code></pre>
+                        </div>
+                        <div class="terminal-footer">
+                            <div class="terminal-output">
+                                <span class="output-symbol">&gt;&gt;&gt; </span>
+                                <span class="output-text">"Ready to build &amp; innovate!"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </section>
+
+
+        <!-- 2. ABOUT SECTION -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Get To Know Me</p>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left Column: Professional Narrative -->
+                    <div class="about-text-col reveal-left">
+                        <div class="about-card highlight-card">
+                            <div class="card-badge"><i class="fa-solid fa-user-astronaut"></i> Background</div>
+                            <h3 class="about-heading">Driven by Curiosity, Grounded in Data &amp; Code</h3>
+                            <p class="about-para">
+                                I am an undergraduate student pursuing my <strong>B.Tech in Data Science and Engineering</strong> at <strong>Lovely Professional University</strong> (Expected Graduation: 2029).
+                            </p>
+                            <p class="about-para">
+                                My technical focus centers on <strong>Python programming</strong>, <strong>web development</strong>, <strong>AI/ML-related development</strong>, <strong>automation</strong>, and building practical software projects. I enjoy solving algorithmic problems, writing clean modular code, and automating workflows.
+                            </p>
+                            <p class="about-para">
+                                Through hands-on development and industry training, I have built rule-based AI chatbots, algorithmic stock portfolio trackers, and automated file organization systems while maintaining rigorous Git version control practices.
+                            </p>
+                            
+                            <div class="about-highlights-list">
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Focused on Python &amp; Data Science Fundamentals</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Hands-on Project &amp; Automation Experience</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Dedicated to Continuous Learning &amp; Engineering Rigor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Quick Information Cards -->
+                    <div class="about-info-col reveal-right">
+                        <div class="info-cards-grid">
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Degree</span>
+                                    <h4 class="info-value">B.Tech in Data Science and Engineering</h4>
+                                    <span class="info-sub">Expected Graduation: 2029</span>
+                                </div>
+                            </div>
+
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">University</span>
+                                    <h4 class="info-value">Lovely Professional University</h4>
+                                    <span class="info-sub">Phagwara, Punjab, India</span>
+                                </div>
+                            </div>
+
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Location</span>
+                                    <h4 class="info-value">Phagwara, Punjab, India</h4>
+                                    <span class="info-sub">Open to remote &amp; on-site opportunities</span>
+                                </div>
+                            </div>
+
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-microchip"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Focus Areas</span>
+                                    <h4 class="info-value">Python, AI/ML, Data Science</h4>
+                                    <span class="info-sub">Automation &amp; Web Development</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Quick Contact Bar Card -->
+                        <div class="quick-contact-card">
+                            <div class="qc-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:nikhilreddipalli1@gmail.com">nikhilreddipalli1@gmail.com</a>
+                            </div>
+                            <div class="qc-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:+919963542131">+91-9963542131</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 3. SKILLS SECTION -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Technical Toolkit</p>
+                    <h2 class="section-title">Skills &amp; <span class="gradient-text">Competencies</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Categorized breakdown of technical capabilities, toolsets, and professional attributes directly from my CV.</p>
+                </div>
+
+                <div class="skills-category-grid">
+                    
+                    <!-- Category 1: Programming & Database -->
+                    <div class="skill-category-card reveal-up">
+                        <div class="category-header">
+                            <div class="category-icon icon-blue">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="category-title-group">
+                                <h3>Programming &amp; Database</h3>
+                                <span class="category-badge">Core Technologies</span>
+                            </div>
+                        </div>
+                        <div class="skills-pill-container">
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-c skill-icon icon-c"></i>
+                                <span class="skill-name">C</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-python skill-icon icon-python"></i>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-database skill-icon icon-sql"></i>
+                                <span class="skill-name">SQL</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-server skill-icon icon-dbms"></i>
+                                <span class="skill-name">DBMS</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-html5 skill-icon icon-html"></i>
+                                <span class="skill-name">HTML</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-css3-alt skill-icon icon-css"></i>
+                                <span class="skill-name">CSS</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-js skill-icon icon-js"></i>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Engineering & Development Tools -->
+                    <div class="skill-category-card reveal-up delay-1">
+                        <div class="category-header">
+                            <div class="category-icon icon-purple">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+                            <div class="category-title-group">
+                                <h3>Engineering &amp; Tools</h3>
+                                <span class="category-badge">Dev &amp; Simulation</span>
+                            </div>
+                        </div>
+                        <div class="skills-pill-container">
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-code-branch skill-icon icon-vscode"></i>
+                                <span class="skill-name">VS Code</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-git-alt skill-icon icon-git"></i>
+                                <span class="skill-name">Git</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-github skill-icon icon-github"></i>
+                                <span class="skill-name">GitHub</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-microchip skill-icon icon-arduino"></i>
+                                <span class="skill-name">Arduino IDE</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-bolt skill-icon icon-proteus"></i>
+                                <span class="skill-name">Proteus</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-cloud-arrow-up skill-icon icon-vmware"></i>
+                                <span class="skill-name">VMware</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Domain Expertise -->
+                    <div class="skill-category-card reveal-up delay-2">
+                        <div class="category-header">
+                            <div class="category-icon icon-cyan">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <div class="category-title-group">
+                                <h3>Domain Expertise</h3>
+                                <span class="category-badge">Specializations</span>
+                            </div>
+                        </div>
+                        <div class="skills-pill-container">
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-python skill-icon"></i>
+                                <span class="skill-name">Python Programming</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-globe skill-icon"></i>
+                                <span class="skill-name">Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Soft Skills -->
+                    <div class="skill-category-card reveal-up delay-3">
+                        <div class="category-header">
+                            <div class="category-icon icon-amber">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <div class="category-title-group">
+                                <h3>Soft Skills</h3>
+                                <span class="category-badge">Professional Attributes</span>
+                            </div>
+                        </div>
+                        <div class="skills-pill-container">
+                            <div class="skill-pill"><i class="fa-solid fa-puzzle-piece"></i><span>Problem-Solving</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-comments"></i><span>Communication</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-people-group"></i><span>Teamwork</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-user-tie"></i><span>Leadership</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-shuffle"></i><span>Adaptability</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-magnifying-glass-chart"></i><span>Critical Thinking</span></div>
+                            <div class="skill-pill"><i class="fa-solid fa-clock"></i><span>Time Management</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 4. EXPERIENCE SECTION -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Career Journey</p>
+                    <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="experience-timeline">
+                    <!-- Featured Experience Card -->
+                    <div class="experience-card featured-exp-card reveal-up">
+                        <div class="exp-header">
+                            <div class="exp-title-meta">
+                                <div class="exp-badge">Internship / Role</div>
+                                <h3 class="exp-role">AI/ML &amp; Python Development</h3>
+                                <h4 class="exp-company">CodeAlpha</h4>
+                            </div>
+                            <div class="exp-period">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>June 2026 – July 2026</span>
+                            </div>
+                        </div>
+
+                        <div class="exp-body">
+                            <p class="exp-summary">
+                                "Developed three Python-based projects: Basic Chatbot, Stock Portfolio Tracker, and Smart File Organizer."
+                            </p>
+
+                            <div class="exp-responsibilities">
+                                <h5>Key Responsibilities &amp; Technical Execution:</h5>
+                                <ul class="exp-list">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Applied Python, file handling, data processing, automation, and modular programming.</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Used Git &amp; GitHub for version control, project documentation, and repository management.</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="exp-tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Automation</span>
+                                <span class="tech-tag">Data Processing</span>
+                                <span class="tech-tag">File Handling</span>
+                                <span class="tech-tag">Git &amp; GitHub</span>
+                                <span class="tech-tag">Modular Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 5. PROJECTS SECTION -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Portfolio Highlights</p>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Practical software solutions built using Python, modular architecture, and automated logic.</p>
+                </div>
+
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Basic Chatbot -->
+                    <article class="project-card reveal-up">
+                        <div class="project-card-banner">
+                            <div class="banner-icon-bg"><i class="fa-solid fa-robot"></i></div>
+                            <div class="project-card-header">
+                                <span class="project-number">01</span>
+                                <span class="project-lang-badge"><i class="fa-brands fa-python"></i> Python</span>
+                            </div>
+                            <div class="banner-terminal-preview">
+                                <code>&gt; user: "hello"<br>&gt; bot: "Greetings! How can I assist you today?"</code>
+                            </div>
+                        </div>
+
+                        <div class="project-card-content">
+                            <h3 class="project-title">Basic Chatbot</h3>
+                            <p class="project-desc">
+                                Developed a rule-based chatbot using Python to handle user queries through interactive text-based conversations.
+                            </p>
+
+                            <div class="project-features">
+                                <h4 class="features-title">Key Features:</h4>
+                                <ul class="feature-bullets">
+                                    <li><i class="fa-solid fa-check"></i> Conditional logic</li>
+                                    <li><i class="fa-solid fa-check"></i> Keyword matching</li>
+                                    <li><i class="fa-solid fa-check"></i> Response handling</li>
+                                    <li><i class="fa-solid fa-check"></i> Modular structure</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-footer">
+                                <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline project-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub Repository</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Stock Portfolio Tracker -->
+                    <article class="project-card reveal-up delay-1">
+                        <div class="project-card-banner">
+                            <div class="banner-icon-bg"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="project-card-header">
+                                <span class="project-number">02</span>
+                                <span class="project-lang-badge"><i class="fa-brands fa-python"></i> Python</span>
+                            </div>
+                            <div class="banner-terminal-preview">
+                                <code>&gt; portfolio.calculate_valuation()<br>&gt; Total Value: $14,850.00 (+12.4%)</code>
+                            </div>
+                        </div>
+
+                        <div class="project-card-content">
+                            <h3 class="project-title">Stock Portfolio Tracker</h3>
+                            <p class="project-desc">
+                                Developed a Python-based stock portfolio tracking application to manage stocks, quantities, prices, and portfolio holdings.
+                            </p>
+
+                            <div class="project-features">
+                                <h4 class="features-title">Key Features:</h4>
+                                <ul class="feature-bullets">
+                                    <li><i class="fa-solid fa-check"></i> Portfolio management</li>
+                                    <li><i class="fa-solid fa-check"></i> Investment value calculation</li>
+                                    <li><i class="fa-solid fa-check"></i> Portfolio performance calculation</li>
+                                    <li><i class="fa-solid fa-check"></i> Command-line interface</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-footer">
+                                <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline project-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub Repository</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Smart File Organizer -->
+                    <article class="project-card reveal-up delay-2">
+                        <div class="project-card-banner">
+                            <div class="banner-icon-bg"><i class="fa-solid fa-folder-tree"></i></div>
+                            <div class="project-card-header">
+                                <span class="project-number">03</span>
+                                <span class="project-lang-badge"><i class="fa-brands fa-python"></i> Python</span>
+                            </div>
+                            <div class="banner-terminal-preview">
+                                <code>&gt; organizing: /Downloads<br>&gt; Categorized files by extension</code>
+                            </div>
+                        </div>
+
+                        <div class="project-card-content">
+                            <h3 class="project-title">Smart File Organizer</h3>
+                            <p class="project-desc">
+                                Developed a Python-based file organization utility to automatically categorize files based on their extensions.
+                            </p>
+
+                            <div class="project-features">
+                                <h4 class="features-title">Key Features:</h4>
+                                <ul class="feature-bullets">
+                                    <li><i class="fa-solid fa-check"></i> File handling</li>
+                                    <li><i class="fa-solid fa-check"></i> Directory management</li>
+                                    <li><i class="fa-solid fa-check"></i> File categorization</li>
+                                    <li><i class="fa-solid fa-check"></i> Automation</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-footer">
+                                <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline project-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub Repository</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 6. CERTIFICATIONS SECTION -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Verified Credentials</p>
+                    <h2 class="section-title">Verified <span class="gradient-text">Certifications</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Certified courses and technical credentials completed from recognized organizations with actual verified certificate proofs.</p>
+                </div>
+
+                <div class="certifications-grid">
+                    
+                    <!-- Cert 1: Programming Fundamentals using Python | Part 1 & 2 -->
+                    <div class="cert-card proof-available reveal-up"
+                        data-cert-title="Programming Fundamentals using Python | Part 1 &amp; 2"
+                        data-cert-issuer="Infosys Springboard"
+                        data-cert-date="June 2026"
+                        data-cert-img="assets/certificates/infosys-python-part1.png"
+                        data-cert-img2="assets/certificates/infosys-python-part2.png"
+                        data-cert-pdf="assets/certificates/infosys-python-part1-and-2.pdf"
+                        onclick="openCertificate('assets/certificates/infosys-python-part1.png', 'Programming Fundamentals using Python | Part 1 &amp; 2', 'Infosys Springboard', 'June 2026', 'assets/certificates/infosys-python-part1-and-2.pdf', 'assets/certificates/infosys-python-part2.png')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view Programming Fundamentals using Python Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/infosys-python-part1.png" 
+                                 alt="Programming Fundamentals using Python Part 1 Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">Infosys Springboard</span>
+                            <h3 class="cert-name">Programming Fundamentals using Python | Part 1 &amp; 2</h3>
+                            <div class="cert-meta">
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> June 2026</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/infosys-python-part1-and-2.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open PDF in new tab">
+                                <i class="fa-solid fa-file-pdf"></i> Open PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2: Computer Programming -->
+                    <div class="cert-card proof-available reveal-up delay-1"
+                        data-cert-title="Computer Programming"
+                        data-cert-issuer="150 Hours | Neo Colab"
+                        data-cert-date="June 2026"
+                        data-cert-img="assets/certificates/neo-colab-computer-programming.png"
+                        data-cert-pdf="assets/certificates/neo-colab-computer-programming.pdf"
+                        onclick="openCertificate('assets/certificates/neo-colab-computer-programming.png', 'Computer Programming', '150 Hours | Neo Colab', 'June 2026', 'assets/certificates/neo-colab-computer-programming.pdf')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view Computer Programming Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/neo-colab-computer-programming.png" 
+                                 alt="Computer Programming Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">150 Hours | Neo Colab</span>
+                            <h3 class="cert-name">Computer Programming</h3>
+                            <div class="cert-meta">
+                                <span class="cert-duration"><i class="fa-regular fa-clock"></i> 150 Hours</span>
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> June 2026</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/neo-colab-computer-programming.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open PDF in new tab">
+                                <i class="fa-solid fa-file-pdf"></i> Open PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3: Computer Architecture -->
+                    <div class="cert-card proof-available reveal-up delay-2"
+                        data-cert-title="Computer Architecture"
+                        data-cert-issuer="48 Hours | Saylor Academy"
+                        data-cert-date="February 2026"
+                        data-cert-img="assets/certificates/saylor-cs301-computer-architecture-page1.png"
+                        data-cert-img2="assets/certificates/saylor-cs301-computer-architecture-page2.png"
+                        data-cert-pdf="assets/certificates/saylor-cs301-computer-architecture.pdf"
+                        onclick="openCertificate('assets/certificates/saylor-cs301-computer-architecture-page1.png', 'Computer Architecture', '48 Hours | Saylor Academy', 'February 2026', 'assets/certificates/saylor-cs301-computer-architecture.pdf', 'assets/certificates/saylor-cs301-computer-architecture-page2.png')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view Computer Architecture Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/saylor-cs301-computer-architecture-page1.png" 
+                                 alt="Computer Architecture Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">48 Hours | Saylor Academy</span>
+                            <h3 class="cert-name">Computer Architecture</h3>
+                            <div class="cert-meta">
+                                <span class="cert-duration"><i class="fa-regular fa-clock"></i> 48 Hours</span>
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> February 2026</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/saylor-cs301-computer-architecture.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open PDF in new tab">
+                                <i class="fa-solid fa-file-pdf"></i> Open PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4: Software Engineering -->
+                    <div class="cert-card proof-available reveal-up"
+                        data-cert-title="CS302: Software Engineering"
+                        data-cert-issuer="Saylor.org University"
+                        data-cert-date="April 4, 2026"
+                        data-cert-img="assets/certificates/saylor-cs302-software-engineering.jpg"
+                        data-cert-pdf="assets/certificates/saylor-cs302-software-engineering.jpg"
+                        onclick="openCertificate('assets/certificates/saylor-cs302-software-engineering.jpg', 'CS302: Software Engineering', 'Saylor.org University', 'April 4, 2026', 'assets/certificates/saylor-cs302-software-engineering.jpg')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view CS302: Software Engineering Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/saylor-cs302-software-engineering.jpg" 
+                                 alt="CS302: Software Engineering Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">Saylor.org University</span>
+                            <h3 class="cert-name">CS302: Software Engineering</h3>
+                            <div class="cert-meta">
+                                <span class="cert-id-tag"><i class="fa-solid fa-hashtag"></i> ID: 9622598998SS</span>
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> April 4, 2026</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/saylor-cs302-software-engineering.jpg" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open full image in new tab">
+                                <i class="fa-solid fa-file-image"></i> Open Image
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 5: Introduction to Cyber Security -->
+                    <div class="cert-card proof-available reveal-up delay-1"
+                        data-cert-title="Introduction to Cyber Security"
+                        data-cert-issuer="Infosys Springboard"
+                        data-cert-date="March 24, 2026"
+                        data-cert-img="assets/certificates/infosys-cyber-security.jpg"
+                        data-cert-pdf="assets/certificates/infosys-cyber-security.jpg"
+                        onclick="openCertificate('assets/certificates/infosys-cyber-security.jpg', 'Introduction to Cyber Security', 'Infosys Springboard', 'March 24, 2026', 'assets/certificates/infosys-cyber-security.jpg')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view Introduction to Cyber Security Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/infosys-cyber-security.jpg" 
+                                 alt="Introduction to Cyber Security Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">Infosys Springboard</span>
+                            <h3 class="cert-name">Introduction to Cyber Security</h3>
+                            <div class="cert-meta">
+                                <span class="cert-qr-tag"><i class="fa-solid fa-qrcode"></i> QR Verified</span>
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> March 24, 2026</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/infosys-cyber-security.jpg" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open full image in new tab">
+                                <i class="fa-solid fa-file-image"></i> Open Image
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 6: Introduction to Computer Science II -->
+                    <div class="cert-card proof-available reveal-up delay-2"
+                        data-cert-title="Introduction to Computer Science II"
+                        data-cert-issuer="Saylor Academy"
+                        data-cert-date="February 2026"
+                        data-cert-img="assets/certificates/saylor-cs102-intro-cs2.png"
+                        data-cert-pdf="assets/certificates/saylor-cs102-intro-cs2.png"
+                        onclick="openCertificate('assets/certificates/saylor-cs102-intro-cs2.png', 'Introduction to Computer Science II', 'Saylor Academy', 'February 2026', 'assets/certificates/saylor-cs102-intro-cs2.png')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view Introduction to Computer Science II Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/saylor-cs102-intro-cs2.png" 
+                                 alt="Introduction to Computer Science II Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">Saylor Academy</span>
+                            <h3 class="cert-name">Introduction to Computer Science II</h3>
+                            <div class="cert-meta">
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> February 2026</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/saylor-cs102-intro-cs2.png" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open full image in new tab">
+                                <i class="fa-solid fa-file-image"></i> Open Image
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 7: Basics of Training & Leadership -->
+                    <div class="cert-card proof-available reveal-up"
+                        data-cert-title="Basics of Training &amp; Leadership"
+                        data-cert-issuer="UniAthena × Cambridge International Qualifications"
+                        data-cert-date="October 2025"
+                        data-cert-img="assets/certificates/uniathena-training-leadership.png"
+                        data-cert-pdf="assets/certificates/uniathena-training-leadership.pdf"
+                        onclick="openCertificate('assets/certificates/uniathena-training-leadership.png', 'Basics of Training &amp; Leadership', 'UniAthena × Cambridge International Qualifications', 'October 2025', 'assets/certificates/uniathena-training-leadership.pdf')"
+                        role="button"
+                        tabindex="0"
+                        title="Click to view Basics of Training & Leadership Certificate">
+                        <div class="cert-thumb-wrapper">
+                            <img src="assets/certificates/uniathena-training-leadership.png" 
+                                 alt="Basics of Training & Leadership Certificate Preview" 
+                                 class="certificate-preview cert-thumb" 
+                                 loading="lazy">
+                            <div class="thumb-overlay">
+                                <span><i class="fa-solid fa-expand"></i> View Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-issuer">UniAthena × Cambridge International Qualifications</span>
+                            <h3 class="cert-name">Basics of Training &amp; Leadership</h3>
+                            <div class="cert-meta">
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> October 2025</span>
+                            </div>
+                        </div>
+                        <div class="cert-action">
+                            <button type="button" class="cert-btn btn-view-proof" title="Open certificate in lightbox">
+                                <i class="fa-solid fa-expand"></i> View Certificate
+                            </button>
+                            <a href="assets/certificates/uniathena-training-leadership.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn btn-view-pdf" onclick="event.stopPropagation();" title="Open PDF in new tab">
+                                <i class="fa-solid fa-file-pdf"></i> Open PDF
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 7. ACHIEVEMENTS & CO-CURRICULAR SECTION -->
+        <section id="achievements" class="achievements-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Milestones &amp; Recognition</p>
+                    <h2 class="section-title">Honors &amp; <span class="gradient-text">Achievements</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="achievements-grid">
+                    
+                    <!-- Achievement 1 -->
+                    <div class="achievement-card reveal-up">
+                        <div class="achievement-icon-box">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <span class="achievement-badge">Hackathon / Techfest</span>
+                            <h3 class="achievement-title">Top 10 Teams — Cognitia Techfest</h3>
+                            <p class="achievement-org">Lovely Professional University</p>
+                            <span class="achievement-date"><i class="fa-regular fa-calendar"></i> March 2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2 -->
+                    <div class="achievement-card reveal-up delay-1">
+                        <div class="achievement-icon-box">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <span class="achievement-badge">AI Hackathon</span>
+                            <h3 class="achievement-title">Prompt-Builder 2026</h3>
+                            <p class="achievement-org">LPU School of Computer Science and Engineering × InnovXus</p>
+                            <span class="achievement-date"><i class="fa-regular fa-calendar"></i> March 2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 3 -->
+                    <div class="achievement-card reveal-up delay-2">
+                        <div class="achievement-icon-box">
+                            <i class="fa-solid fa-scroll"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <span class="achievement-badge">Examination</span>
+                            <h3 class="achievement-title">Bharat Rashtriya Hindi Parishad</h3>
+                            <p class="achievement-org">Completed all examinations</p>
+                            <span class="achievement-date"><i class="fa-solid fa-check-double"></i> Certified Completion</span>
+                        </div>
+                    </div>
+
+                    <!-- Co-Curricular Activity -->
+                    <div class="achievement-card cocurricular-card reveal-up delay-3">
+                        <div class="achievement-icon-box icon-volunteer">
+                            <i class="fa-solid fa-paw"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <span class="achievement-badge">Co-Curricular / Volunteer</span>
+                            <h3 class="achievement-title">Campus Paws</h3>
+                            <p class="achievement-org">Volunteered in Campus Paws — Lovely Professional University</p>
+                            <span class="achievement-date"><i class="fa-regular fa-calendar"></i> February 2026</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 8. EDUCATION SECTION -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Academic Background</p>
+                    <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="education-timeline-wrapper">
+                    <div class="timeline-line"></div>
+
+                    <!-- Education Node 1 -->
+                    <div class="timeline-item reveal-up">
+                        <div class="timeline-dot">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Ongoing Undergraduate</div>
+                            <h3 class="timeline-title">B.Tech in Data Science and Engineering</h3>
+                            <h4 class="timeline-institution">Lovely Professional University</h4>
+                            <div class="timeline-meta">
+                                <span><i class="fa-regular fa-calendar"></i> 2029 – Ongoing</span>
+                                <span><i class="fa-solid fa-location-dot"></i> Phagwara, Punjab</span>
+                                <span class="score-badge"><i class="fa-solid fa-chart-simple"></i> CGPA: 5.67</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Node 2 -->
+                    <div class="timeline-item reveal-up delay-1">
+                        <div class="timeline-dot">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Intermediate / Senior Secondary</div>
+                            <h3 class="timeline-title">Class XII — PCM (Physics, Chemistry, Math)</h3>
+                            <h4 class="timeline-institution">Pragati Junior College</h4>
+                            <div class="timeline-meta">
+                                <span><i class="fa-regular fa-calendar"></i> 2024 – 2025</span>
+                                <span><i class="fa-solid fa-location-dot"></i> Kakinada, Andhra Pradesh</span>
+                                <span class="score-badge"><i class="fa-solid fa-percent"></i> Percentage: 72.9%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Node 3 -->
+                    <div class="timeline-item reveal-up delay-2">
+                        <div class="timeline-dot">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Secondary Education</div>
+                            <h3 class="timeline-title">Class X</h3>
+                            <h4 class="timeline-institution">Pragati E.M. School</h4>
+                            <div class="timeline-meta">
+                                <span><i class="fa-regular fa-calendar"></i> 2022 – 2023</span>
+                                <span><i class="fa-solid fa-location-dot"></i> Kakinada, Andhra Pradesh</span>
+                                <span class="score-badge"><i class="fa-solid fa-percent"></i> Percentage: 84%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 9. CONTACT SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-subtitle">Get In Touch</p>
+                    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Have a project idea, collaboration opportunity, or just want to connect? Feel free to reach out.</p>
+                </div>
+
+                <div class="contact-grid">
+                    
+                    <!-- Left: Contact Details & Quick Copy Links -->
+                    <div class="contact-info-wrapper reveal-left">
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-card-text">
+                                <span class="label">Email Me</span>
+                                <a href="mailto:nikhilreddipalli1@gmail.com" class="val">nikhilreddipalli1@gmail.com</a>
+                            </div>
+                            <button class="copy-btn" data-copy="nikhilreddipalli1@gmail.com" aria-label="Copy email address" title="Copy to clipboard">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-card-text">
+                                <span class="label">Phone / WhatsApp</span>
+                                <a href="tel:+919963542131" class="val">+91-9963542131</a>
+                            </div>
+                            <button class="copy-btn" data-copy="+919963542131" aria-label="Copy phone number" title="Copy to clipboard">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-card-text">
+                                <span class="label">LinkedIn Profile</span>
+                                <a href="https://www.linkedin.com/in/nikhil-reddipalli-65082835a" target="_blank" rel="noopener noreferrer" class="val">nikhil-reddipalli-65082835a</a>
+                            </div>
+                            <a href="https://www.linkedin.com/in/nikhil-reddipalli-65082835a" target="_blank" rel="noopener noreferrer" class="external-link-btn" aria-label="Open LinkedIn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <div class="contact-card-text">
+                                <span class="label">GitHub Profile</span>
+                                <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" class="val">NikhilReddipalli1-200812</a>
+                            </div>
+                            <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" class="external-link-btn" aria-label="Open GitHub">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-card-text">
+                                <span class="label">Location</span>
+                                <span class="val">Phagwara, Punjab, India</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: Contact Form -->
+                    <div class="contact-form-wrapper reveal-right">
+                        <div class="form-container">
+                            <h3 class="form-title">Send a Direct Message</h3>
+                            <p class="form-subtitle">Fill out the form below and your message will be delivered straight to my email.</p>
+
+                            <!-- Formspree Static-Site Delivery Form -->
+                            <form id="contact-form" action="https://formspree.io/f/meaqorzo" method="POST" class="contact-form" novalidate>
+                                <!-- Anti-spam honeypot field -->
+                                <input type="text" name="_gotcha" style="display:none !important;" tabindex="-1" autocomplete="off">
+                                
+                                <div class="form-group">
+                                    <label for="form-name">Your Name <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-user"></i>
+                                        <input type="text" id="form-name" name="name" placeholder="Enter your name" required autocomplete="name">
+                                    </div>
+                                    <span class="field-error" id="name-error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-email">Your Email <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <input type="email" id="form-email" name="email" placeholder="name@example.com" required autocomplete="email">
+                                    </div>
+                                    <span class="field-error" id="email-error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-subject">Subject <span class="required">*</span></label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                        <input type="text" id="form-subject" name="subject" placeholder="Project Collaboration / Inquiries" required>
+                                    </div>
+                                    <span class="field-error" id="subject-error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-message">Message <span class="required">*</span></label>
+                                    <div class="input-wrapper textarea-wrapper">
+                                        <i class="fa-regular fa-comment-dots"></i>
+                                        <textarea id="form-message" name="message" rows="4" placeholder="Hello Nikhil, I'd like to discuss..." required></textarea>
+                                    </div>
+                                    <span class="field-error" id="message-error"></span>
+                                </div>
+
+                                <!-- Dynamic Form Submission Status Alert -->
+                                <div id="form-status-alert" class="form-status-alert" style="display: none;" role="alert"></div>
+
+                                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <i class="fa-solid fa-paper-plane btn-icon"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="brand-logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-name">Nikhil</span>
+                        <span class="logo-accent">.dev</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p class="footer-tagline">
+                        Data Science &amp; Engineering Student | Python Developer | Aspiring AI/ML Engineer
+                    </p>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-links-title">Quick Navigation</h4>
+                    <div class="footer-nav-grid">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#certifications">Certificates</a>
+                        <a href="#achievements">Achievements</a>
+                        <a href="#education">Education</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-social-group">
+                    <h4 class="footer-links-title">Social Channels</h4>
+                    <div class="footer-social-links">
+                        <a href="https://github.com/NikhilReddipalli1-200812" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nikhil-reddipalli-65082835a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:nikhilreddipalli1@gmail.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919963542131" aria-label="Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Reddipalli Nikhil Eeswar. All rights reserved.</p>
+                <p class="footer-designed-by">Built with HTML5, CSS3 &amp; Vanilla JS &bull; Hosted on GitHub Pages</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Toast Notification for Copy / Form Feedback -->
+    <div id="toast" class="toast" role="alert" aria-live="assertive">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- CERTIFICATE PROOF MODAL / LIGHTBOX -->
+    <div id="cert-modal" class="cert-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-cert-title">
+        <div class="cert-modal-overlay" id="cert-modal-overlay"></div>
+        <div class="cert-modal-dialog">
+            <div class="cert-modal-header">
+                <div class="cert-modal-header-text">
+                    <span class="cert-modal-issuer" id="modal-cert-issuer">Issuing Organization</span>
+                    <h3 class="cert-modal-title" id="modal-cert-title">Certificate Title</h3>
+                    <div class="cert-modal-date" id="modal-cert-date"><i class="fa-regular fa-calendar"></i> <span>-</span></div>
+                </div>
+                <button class="cert-modal-close" id="cert-modal-close" aria-label="Close certificate preview">&times;</button>
+            </div>
+            
+            <div class="cert-modal-body">
+                <!-- Multi-page / Part Switcher for 2-page Certificates -->
+                <div class="cert-modal-page-nav" id="cert-page-nav" style="display: none;">
+                    <button class="cert-page-btn active" id="cert-page-1-btn" data-page="1">
+                        <i class="fa-regular fa-file-image"></i> Part 1 / Page 1
+                    </button>
+                    <button class="cert-page-btn" id="cert-page-2-btn" data-page="2">
+                        <i class="fa-regular fa-file-image"></i> Part 2 / Page 2
+                    </button>
+                </div>
+
+                <div class="cert-img-container">
+                    <img id="modal-cert-img" src="" alt="Certificate Proof Preview" class="cert-modal-img">
+                </div>
+            </div>
+
+            <div class="cert-modal-footer">
+                <button type="button" class="btn btn-sm btn-outline" id="modal-cert-close-btn">
+                    <i class="fa-solid fa-xmark"></i> Close
+                </button>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" id="modal-cert-pdf-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> <span>Open Full Document</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+</html>
